@@ -17,7 +17,7 @@ public class ProblemaMaiorPosicao {
 			vet[i] = sc.nextDouble();
 		}
 
-		double maior = 0;
+		double maior = 0.0;
 		int maiorPosicao = 0;  // varial para guardar a posição do vetor
 		for (int i = 0; i < n; i++) {
 			if (vet[i] > maior) {
