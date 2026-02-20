@@ -1,12 +1,10 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class Nomes {
 
 	public static void main(String[] args) {
 		
-		Scanner sc = new Scanner(System.in);
 		List<String> list = new ArrayList<>();
 		
 		list.add("Joaquim");
@@ -51,8 +49,6 @@ public class Nomes {
 		for(String n : list) {
 			System.out.println(n);
 		}
-		
-		sc.close();
 
 	}
 
