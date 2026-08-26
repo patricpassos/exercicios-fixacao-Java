@@ -5,14 +5,9 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="exercicios_sequencial"/>
-	<classpathentry kind="src" path="exercicios_condicionais"/>
-	<classpathentry kind="src" path="exercicio_repeticao"/>
-	<classpathentry kind="src" path="exercicio_vetores"/>
-	<classpathentry kind="src" path="exercicio_matrizes"/>
 	<classpathentry kind="src" path="desafios"/>
-	<classpathentry kind="src" path="exercicio_funcoes"/>
-	<classpathentry kind="src" path="exercicio_listas"/>
 	<classpathentry kind="src" path="neps_academy"/>
+	<classpathentry kind="src" path="dev_superior"/>
+	<classpathentry kind="src" path="beecrowd"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
