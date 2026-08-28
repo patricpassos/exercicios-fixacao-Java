@@ -25,6 +25,19 @@ public class PacMan {
 					}
 				}
 			}
+			
+			else {
+				for(int j = linha.length() - 1; j >= 0; j--) {
+					char caractere = linha.charAt(j);
+					
+					if(caractere == 'o') {
+						comidasAtual++;
+						comidaMaximo = Math.max(comidaMaximo, comidasAtual);
+					} else if (caractere == 'A' ) {
+						comidasAtual = 0;
+					}
+				}
+			}
 		}
 
 		System.out.println(comidaMaximo);
