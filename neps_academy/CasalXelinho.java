@@ -7,7 +7,8 @@ public class CasalXelinho {
 
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-
+		
+		//Algoritmo de multiplo de x e proximo multiplo para cima
 		int xelim = sc.nextInt();
 
 		int pence = xelim * 5;

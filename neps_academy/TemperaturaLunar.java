@@ -6,6 +6,7 @@ public class TemperaturaLunar {
 
 		Scanner sc = new Scanner(System.in);
 
+		//algoritmo de sinalizador máximo e mínimo
 		int quantidadeDeMedicoes = sc.nextInt();
 		int intervalosDeMedicoes = sc.nextInt();
 		int[] vet = new int[quantidadeDeMedicoes];

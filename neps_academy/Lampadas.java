@@ -6,6 +6,7 @@ public class Lampadas {
 
 		Scanner sc = new Scanner(System.in);
 
+		//algoritmo inversor binario toggle flit
 		int entrada = sc.nextInt();
 
 		int lampadaA = 0;

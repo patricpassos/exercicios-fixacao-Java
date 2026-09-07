@@ -6,6 +6,7 @@ public class CodigoObi2015 {
 
 		Scanner sc = new Scanner(System.in);
 
+		//Algoritmo varredura de array
 		int n = sc.nextInt();
 		int vet[] = new int[n];
 		int cont = 0;
