@@ -22,13 +22,13 @@ public class AprovadoReprovado {
 		sc.close();
 		
 		//Switch moderno avaliando o tipo e aplicando condições Pattern Matching
-		/*String status = switch (mediaNota) {
-		    case double m when m < 4.0 -> "Reprovado";
-		    case double m when m < 7.0 -> "Recuperação";
+		String status = switch (Double.valueOf(mediaNota)) {
+		    case Double m when m < 4.0 -> "Reprovado";
+		    case Double m when m < 7.0 -> "Recuperação";
 		    default -> "Aprovado";
 		};
 
-		System.out.println("Status do aluno: " + status);*/
+		System.out.println("Status do aluno: " + status);
 
 	}
 
