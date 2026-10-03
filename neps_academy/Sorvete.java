@@ -12,8 +12,7 @@ public class Sorvete {
 		//vetores espelhados para guardar os intervalos (inicial e final)
 		int[] inicio = new int[s];
 		int[] fim = new int[s];
-		
-		
+
 		for (int i = 0; i < s; i++) {
 			inicio[i] = sc.nextInt();
 			fim[i] = sc.nextInt();

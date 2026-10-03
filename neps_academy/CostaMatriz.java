@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Costa {
+public class CostaMatriz {
 
 	public static void main(String[] args) {
 
